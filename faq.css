@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+body{
+    background-color: hsl(0, 36%, 86%); 
+    width:1440px;
+    height:350px;
+
+}
+
+.container2{
+     background-image: url("./background-pattern-desktop.jpg") ;
+     width:1440px; 
+     height:350px; 
+     background-size: cover;
+     z-index: -1;
+    
+}
+
+.container4{
+    background-color: white;
+    max-width: 900px;
+    width:100%; 
+    height:500px;
+    margin:auto;
+    margin-top:-170px;
+    z-index: 4;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+
+} 
+.container4 > img{
+ width:40px;
+margin-top: 20px;
+margin-left: 30px;
+ /* margin: 20px; */
+ 
+    
+
+   
+}
+.container4 > h1{
+    font-weight:bolder;
+    margin-left: 80px;
+    margin-top:-35px;
+    font-size: 30px;
+    display:inline-block
+  
+
+}
+.container5{
+    margin:30px;
+}
+.container5 > h4{
+    padding:10px;
+    margin:20px;
+   
+}
+.container5  > h4{
+    display:inline-block;
+}
+.container5 > p{
+    display:none;
+    color:rgba(128, 0, 128, 0.825);
+    margin-left:40px;
+    margin:10px;
+   
+}
+.container5 > img{
+    width:20px;
+   transform: rotate(270deg);
+  float:inline-end;
+  margin-right: 20px;
+  margin-top: 15px;
+
+}
+.container5 > img:hover{
+    transform:rotate(90deg);
+
+}
+
+  

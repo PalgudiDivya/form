@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faq</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="faq.css">
+</head>
+
+<body>
+    <div class="container1">
+        <div class="container2">
+
+        </div>
+        <div class="container3">
+            <div class="container4">
+         
+                <img src="./icon-star.jpg" alt="sparkle"> 
+                <h1>FAQs</h1>
+               
+                 <div class="container5">
+                <h4>What is Frontend Mentor, and how will it help me</h4>
+                <img src="./arrow.png" class="arrow" alt="arrow">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor dolores labore ipsa quis esse
+                    obcaecati itaque minus, animi odit similique et, architecto iure. Excepturi deleniti ex ipsam iusto
+                    odit tempore.</p>
+                <hr>
+                <h4>Is Frontend mentor free?</h4>
+                <img src="./arrow.png"class="arrow" alt="arrow">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptate asperiores et ut
+                    minima vitae molestiae non ipsa, enim illo esse aliquam ea laudantium? Velit quod suscipit eaque
+                    porro tempora?</p>
+                <hr>
+                <h4>Can I us Frontend Mentjor project in my portfolio?</h4>
+                <img src="./arrow.png" class="arrow" alt="arrow">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptates, beatae amet nesciunt
+                    praesentium dolore ducimus a animi facilis consequuntur non atque, earum expedita? Quae deleniti
+                    eaque nisi repellendus illum!</p>
+                <hr>
+                <h4>How can I get help if I'm stuck on challnge?</h4>
+                <img src="./arrow.png"class="arrow" alt="arrow">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quae, eos dolor quam doloribus, fugiat
+                    architecto, nulla ipsam tenetur aperiam quas maxime quia ipsa aliquid. Repudiandae consequatur eius
+                    ex quia.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+ document.querySelectorAll('.arrow').forEach(arrow => {
+    arrow.addEventListener('click', () => {
+     
+        const paragraph = arrow.nextElementSibling;
+        if (paragraph.style.display === 'block') {
+            paragraph.style.display = 'none';
+            arrow.classList.remove('rotate');
+        } else {
+            paragraph.style.display = 'block';
+            arrow.classList.add('rotate');
+        }
+      
+    });
+});
+
+</script>
+
+
+
+</body>
+
+</html>
