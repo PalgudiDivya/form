@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+.container1{
+    max-width:900px;
+    width:100%;
+    height:600px;
+    display:flex;
+    justify-content:center;
+    background: rgba(110, 247, 160, 0.17);
+    margin:auto;
+    margin-top: 40px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2); 
+}
+.container2{
+    background: white;
+    max-width:700px;
+    width:100%;
+    height:550px;
+    margin:30px;
+}
+.container2 > h3{
+    margin:30px;
+    font-family: arial;
+}
+form{
+    margin:30px;
+}
+form .name-container{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+.name-container input{
+      padding:10px; 
+     margin-top:10px; 
+     width:300px; 
+    display:flex; 
+    flex-wrap: wrap; 
+    border-radius: 5px;
+    border-color: rgba(0,0,0,0.2);
+}
+.name-container > .input-group{
+    margin:10px;
+}
+.input-group > .email{
+    max-width:620px;
+    width:100%;
+}
+.input-group > #query{
+      margin-top:20px;  
+      display:block;
+}
+.input-group >.checkbox0{
+   display: inline-block;
+  border:1px solid black;
+  margin:10px;
+  width:250px;
+   margin-top: 10px;
+   margin-right: 20px;
+   border-radius: 5px;
+   border-style: solid;
+   border-color: rgba(0,0,0,0.3);
+}
+.input-group >.checkbox0 input{
+    width:10px;
+    margin-top: 10px;
+    display:inline-block;
+    margin:10px;
+   
+    
+}
+.input-group > textarea{
+    display:flex;
+    margin-top:10px;
+    max-width:700px;
+    width:100%;
+    height: 70px;
+    border-radius: 5px;
+    border-color: rgba(0,0,0,0.2);
+}
+
+.input-group >.check input{
+    width:20px;
+    display: inline-block;
+}
+.submit{
+    display:block;
+    width:100%;
+    height:30px;
+    background-color: green;
+    color:aliceblue;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    margin:10px;
+}
+.submit:hover{
+    cursor: pointer;
+}
+@media screen and (max-width:759px) and (min-width:703px) {
+    .container1{
+        height: 700px;
+    }
+    .container2{
+        height: 650px;
+    }
+    
+}
+@media screen and (max-width:703px) and (min-width:360px) {
+    .container1{
+        height: 750px;
+    }
+    .container2{
+        height: 700px;
+    }
+    
+}
+
